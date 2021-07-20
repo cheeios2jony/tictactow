@@ -94,3 +94,33 @@ button {
     background: none;
     transition: all 0.2s ease-in-out;
 }
+
+button:hover {
+    cursor: progress;
+    background: green;
+    color: white;
+}
+
+.playerWin {
+    color: green;
+}
+
+.computerWins {
+    color: red;
+}
+
+.draw {
+    color: orange;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 1.3em;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin-bottom: 1.3em;
+    }
+}
