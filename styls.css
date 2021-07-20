@@ -43,7 +43,7 @@ h2 {
 }
 
 .block:hover {
-    cursor:progress;
+    cursor:crosshair;
     background-color: rgb(142, 228, 12);
 }
 
